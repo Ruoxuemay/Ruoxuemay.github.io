@@ -1,6 +1,28 @@
 body {
 	font-family: 'Noto Sans TC', sans-serif;
 }
-h1{
+h1,h2{
 	font-family: 'Noto Sans TC', sans-serif;
+}
+.subheading {
+	font-family: 'Noto Sans TC', sans-serif;
+	font-size: 1.2rem;
+	text-transform: none;
+	letter-spacing: -0.05rem
+}
+h1 .text-primary {
+	font-size: 3rem;
+	letter-spacing: -0.05rem;
+	line-height: 3rem;
+	color: #aceb00!important;
+}
+h2 .text-primary {
+	color: #aceb00!important;
+}
+.bg-primary {
+	background-color: #aceb00!important;
+background-image: url("https://www.transparenttextures.com/patterns/black-felt.png");
+}
+.graph_set {
+	margin-top: 3rem;
 }
